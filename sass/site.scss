@@ -1,0 +1,117 @@
+// ============================================= 
+
+//  Base SCSS                
+
+// ============================================= 
+
+
+//  Imports            
+// =============================================
+@import "compass/css3/inline-block";
+@import "partials/mixins";
+@import "partials/type"; 
+@import "partials/variables";
+
+
+
+//  Base styles            
+// =============================================
+
+.graphic-article {
+	margin: 0 auto;
+	max-width: 623px;
+	height: 100%;
+}
+
+.graphic-reverse {
+	background-color: $bground-dark;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+}
+
+.graphic-title {
+	margin-bottom: 20px;
+	font-size: 48px;
+	line-height: 100%;
+	@media (min-width: $smedium) { 
+		font-size: 60px;
+	}
+}
+
+.graphic-dek {
+	display: block;
+	margin: 0;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: $sans;
+	line-height: 120%;
+}
+ 
+#chart {
+	margin-bottom: 10px;
+}
+
+.graphic-copy {
+	margin: 5px 0px 15px;
+	font-size: 14px;
+	line-height: 140%;
+}
+.graphic-copy-reverse {
+	font-weight: 500;
+}
+
+.graphic-byline {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.graphic-container {
+	padding: 10px;
+	border: 1px solid $light-gray;
+	@media (min-width: $small) {
+		padding: 20px;
+	}
+}
+
+.sources-copy {
+	display: block;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	border-top: 1px solid $light-gray;
+	color: $med-gray;
+	text-align: left;
+	font-size: 11px;
+	line-height: 130%;
+	@media (min-width: $small) {
+		font-size: 12px;
+	}
+}
+
+.sources-leadin-reverse {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.sources-copy-reverse {
+	color: $light-gray;
+}
+
+
+
+
+
+// IMAGES
+
+.fc-graphic-image {
+	max-width: 100%;
+}
+
+.graphic-container .inline-large {
+	margin: 0 !important;
+	float: none !important;
+}
+
+
+
